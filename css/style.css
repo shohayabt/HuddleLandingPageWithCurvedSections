@@ -16,6 +16,11 @@ ul,
 ol {
   list-style-type: none;
 }
+.nobackgroud {
+  background: white !important;
+  padding: 150px 5% !important;
+}
+
 :root {
   --pink: hsl(322, 100%, 66%);
   --white: #ffffff;
@@ -93,3 +98,56 @@ ol {
   width: 100%;
 }
 /* HERO SECTION END HERE */
+/* COUNTER SECTION START FROM HERE  */
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 5% 10px;
+}
+.counter .card {
+  display: flex;
+  flex-direction: column;
+}
+.counter .card span {
+  font-size: 80px;
+  font-weight: 700;
+}
+.counter .card p {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+}
+/* COUNTER SECTION END HERE */
+/* GROW TOGETHER SECTION START FORM HERE */
+.web-section img {
+  width: 100%;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background: var(--VeryPaleBlue);
+  margin-top: -5px;
+}
+.section .information {
+  width: 50%;
+}
+.section .information h2 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.section .information p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.section .image {
+  width: 50%;
+}
+.section .image img {
+  width: 100%;
+}
+/* GROW TOGETHER SECTION END HERE  */
