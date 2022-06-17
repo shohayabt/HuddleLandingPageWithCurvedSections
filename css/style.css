@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+/* HEADER SECTION CSS START FROM HERE */
+.header {
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo a {
+  display: inline-block;
+  width: 150px;
+}
+.header .logo a img {
+  width: 100%;
+}
+/* HEADER SECTION CSS END HERE */
