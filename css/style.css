@@ -151,3 +151,172 @@ ol {
   width: 100%;
 }
 /* GROW TOGETHER SECTION END HERE  */
+/* COMMUNITY SECTION START FROM HERE */
+.community {
+  text-align: center;
+  padding: 70px;
+}
+.community h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 110px;
+}
+/* COMMUNITY SECTION END HERE */
+/* FOOTER SECTION START FORM HERE  */
+footer {
+  color: white;
+}
+footer > img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+.footer-section {
+  padding: 20px 5%;
+  background: var(--VeryDarkCyan);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section .footer-card {
+  width: 50%;
+}
+.footer-section .footer-card .logo {
+  margin-top: 15px;
+}
+.footer-section .footer-card > span {
+  display: flex;
+  align-items: center;
+}
+.footer-section .footer-card > span span {
+  margin-right: 10px;
+}
+.footer-section .footer-card p {
+  padding-right: 20px;
+  margin: 10px 0px;
+}
+.footer-section .footer-card h2 {
+  font-size: 35px;
+  margin-top: 15px;
+}
+.footer-section .footer-card input {
+  padding: 15px 10px;
+  outline: none;
+  border: 0px solid;
+  margin: 10px 5px 0px 0px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-section .footer-card .btn-footer {
+  padding: 15px 18px;
+  font-size: 18px;
+  text-transform: capitalize;
+  background: var(--lightPink);
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+}
+/* FOOTER SECTION END HERE */
+@media only screen and (max-width: 665px) {
+  .header {
+    padding: 20px 2%;
+  }
+  .header .logo a {
+    display: inline-block;
+    width: 200px;
+  }
+  .header .logo a img {
+    width: 100%;
+  }
+  .header .try-it a {
+    padding: 8px 20px;
+  }
+  .hero {
+    padding: 100px 2% 60px;
+  }
+  .hero h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .hero-text {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+    padding: 10px 0px;
+  }
+  .button-action a {
+    padding: 20px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .counter {
+    flex-direction: column;
+    padding: 20px 2% 10px;
+  }
+  .counter .card {
+    margin: 10px 0px;
+  }
+  .web-section img {
+    width: 100%;
+  }
+  .section {
+    padding: 20px 2%;
+    flex-direction: column;
+  }
+  .section .information {
+    width: 100%;
+  }
+  .section .information h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .section .information p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section .image {
+    width: 100%;
+    margin-top: 6px;
+  }
+  .section .image img {
+    width: 100%;
+  }
+  .community {
+    text-align: center;
+    padding: 20px;
+  }
+  .community h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  footer {
+    color: white;
+  }
+  footer > img {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .footer-section {
+    padding: 20px 2%;
+    flex-direction: column;
+    margin-top: -2px;
+  }
+  .footer-section .footer-card {
+    width: 100%;
+  }
+  .footer-section .footer-card p {
+    padding-right: 0px;
+  }
+  .footer-section .footer-card h2 {
+    font-size: 26px;
+  }
+  .footer-section .footer-card input {
+    width: 100%;
+  }
+  .footer-section .footer-card .btn-footer {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 8px;
+  }
+}
